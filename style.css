@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Kdam+Thmor+Pro&family=PT+Serif&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* swiper ------------------------------------*/
+
+.swiper {
+    width: 100%;
+    height: 30vh;
+    margin-top: 50px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+/*  slider  ----------------------*/
+
+.horizontal-scroll {
+    width: 100%;
+    height: 140px;
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+    text-align: center;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.card1 {
+    width: 130px;
+    height: 90%;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0 2px 0;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.card1 #inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1 img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.card1 h3 {
+    margin: 0;
+    font-size: 17px;
+    color: #555;
+}
+
+.card1 a {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+#inner {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ ::-webkit-scrollbar {
+    width: 5px;
+    height: 3px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: coral;
+    border-radius: 5px;
+}
+
+
+/*__======>__les box to database oils . hom ===============>*/
+
+.b-box {
+    margin-top: 12px;
+    background-color: #eee;
+    padding: 2em 0 2em 0;
+}
+
+.m-box {
+    position: relative;
+    height: 15em;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 -2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.m-box img {
+    width: 100%;
+    height: 10rem;
+    padding-top: 5px;
+    position: absolute;
+}
+
+.m-box span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+    width: 45px;
+    height: 30px;
+    background-color: greenyellow;
+    border-radius: 15px 0 10px 0;
+    position: absolute;
+    margin: 5px;
+}
+
+.titl {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 5em;
+    bottom: 0;
+}
+
+.titl p {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    color: rgb(11, 116, 158);
+}
+
+.titl b {
+    position: absolute;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(5, 73, 100);
+    bottom: 5px;
+    left: 4px;
+}
+
+
+/*=========== footer  -------------------------------*/
+
+.foo {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(41, 39, 39);
+    padding-bottom: 2rem;
+    color: white;
+}
+
+.cont h5 {
+    font-weight: 700;
+    font-family: 'Pacifico', cursive;
+}
+
+.cont h5 b {
+    font-weight: 900;
+    color: #e62c9b;
+}
+
+.cont span {
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    background-color: rgb(216, 15, 206);
+    left: 45%;
+}
+
+.cont h4 {
+    color: #8f0545;
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: cursive;
+}
+
+.cont b {
+    color: #0ceb2a;
+}
+
+.cont p {
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+
+/*div  itisal  */
+
+.mune-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    background-color: white;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 -2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.mune-flex span a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #DCDCDC;
+    border-radius: 50%;
+    color: black;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 -2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.mune-flex span ion-icon {
+    font-size: 25px;
+}
+
+.mune-flex span:nth-child(1) a {
+    background-color: #d29c02;
+}
+
+.mune-flex span:nth-child(2) ion-icon {
+    background-color: rgb(63, 221, 233);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.mune-flex span:nth-child(3) a {
+    background-color: #0ceb2a;
+}
+
+.mune-flex span:nth-child(4) a {
+    background-color: #e62c9b;
+}
+
+.mune-flex span:hover a,
+.mune-flex span:hover ion-icon a {
+    background-color: rgb(235, 27, 113);
+    transform: translateY(-20px);
+    color: white;
+}
+
+
+/*=========== المزيد من الاختيارات button plus product []=================== */
+
+.ext {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 3em;
+}
+
+.ext button {
+    border-radius: 8px;
+    background-color: crimson;
+    border: none;
+}
+
+.ext button a {
+    color: white;
+    font-weight: 600;
+    margin: 0 4px;
+}
+
+
+/*==================lephoto ===>*/
+
+.lesphoto p {
+    font-weight: 900;
+    color: crimson;
+    background-color: #DCDCDC;
+}
+
+.lesphoto img {
+    width: 90%;
+    height: 18em;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
