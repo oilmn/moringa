@@ -1,0 +1,191 @@
+/* top */
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.navbar-brand {
+    margin: 0;
+    font-weight: 700;
+    font-family: 'Pacifico', cursive;
+    padding-right: 19px;
+}
+
+.navbar-brand b,
+.cont b {
+    color: crimson;
+    font-weight: 900;
+    font-family: 'Caramel', cursive;
+    font-size: 25px;
+}
+
+.titlmages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+}
+
+.param-eps {
+    font-size: 25px;
+    margin-top: 8px;
+}
+
+.port-eps img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.port-eps a {
+    margin: 0 6px;
+    font-weight: 900;
+}
+
+.imageps img {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.btn-grp button {
+    /*button*/
+    border: none;
+    height: 40px;
+    border-radius: 12px;
+    background-color: #e2e8f0;
+}
+
+.btn-grp a {
+    color: black;
+    text-decoration: none;
+}
+
+.lesbtn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+
+/*<!--=========>_box muniu-->*/
+
+.box-muni {
+    width: 100%;
+    height: 8em;
+    visibility: hidden;
+    position: absolute;
+}
+
+.tot-muni {
+    width: 20em;
+    height: 30em;
+    background-color: rgb(252, 251, 251);
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 1;
+    padding: 0 9px;
+}
+
+.clos {
+    font-size: 30px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.les-muni {
+    position: relative;
+    width: 100%;
+    height: 16em;
+    margin-top: 12px;
+}
+
+.les-muni span {
+    width: 100%;
+    height: 3em;
+    justify-content: end;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 8px;
+    color: rgb(94, 92, 92);
+}
+
+.les-muni span:hover {
+    background-color: aqua;
+}
+
+.les-muni span h6 {
+    margin: 0 12px;
+    font-weight: 600;
+}
+
+.les-muni span i {
+    font-size: 30px;
+    margin-right: 12px;
+}
+
+.media {
+    position: relative;
+    margin-top: 1.5em;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.media span {
+    width: 50px;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 50%;
+}
+
+.media span a {
+    color: aliceblue;
+}
+
+.media .m1 {
+    background-color: rgb(12, 202, 44);
+}
+
+.media .m2 {
+    background-color: rgb(8, 134, 56);
+}
+
+.media .m3 {
+    background-color: rgb(226, 35, 185);
+}
+
+@media screen and (min-width:1030px) and (max-width:2600px) {
+    .foo {
+        margin: 8px 9em !important;
+        width: 60%;
+    }
+    .btn-grp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px
+    }
+    .lesbtn button {
+        margin: 8px
+    }
+}
+
+@media screen and (max-width:500px) {
+    .navbar-brand {
+        padding-right: 7em !important;
+    }
+}
+
+
+/* style.css */
+
+.swiper {
+    margin-top: 3px !important;
+}
