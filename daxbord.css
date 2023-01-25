@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.mune {
+    display: none;
+}
+
+.frm-dix,
+.frm-foto {
+    position: relative;
+    width: 100%;
+    height: 26em;
+    padding: 1em;
+    margin-top: 8px;
+    margin-top: 8px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0 0 0 /0.360), 0 -2px 4px -2px rgba(0 0 0 /0.360);
+}
+
+.frm-dix input[type="file"] {
+    display: none;
+}
+
+.frm-dix input[type="text"],
+.frm-dix input[type="url"] {
+    margin: 6px 0;
+    outline: none;
+    width: 16em;
+    height: 2.5em;
+    border-radius: 1em;
+    box-shadow: 0 -2px 6px -1px rgba(0, 0, 0, 0.199), 0 -2px 2px -2px rgba(0, 0, 0, 0.226);
+}
+
+
+/* span plus img for login pag */
+
+.pluslabel {
+    position: relative;
+    height: 6em;
+    width: 9em;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 5px 0;
+    background-color: cornflowerblue;
+}
+
+.pluslabel b {
+    position: absolute;
+    font-size: 15px;
+    bottom: 5px;
+    right: 2em;
+}
+
+.frm-dix button[type="submit"] {
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: crimson;
+    margin-top: 12px;
+    width: 10em;
+    height: 3em;
+}
+
+
+/* =====tablue prodect */
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.box-prod {
+    width: 100%;
+    /*height: 15em;*/
+    background-color: white;
+    border-radius: 1em;
+    padding: 1em 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.prodect {
+    width: 100%;
+    height: 4em;
+    justify-content: space-between;
+    padding: 0 5px;
+    border-radius: 8px;
+    margin-top: 8px;
+    /*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.prodect img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.prodect p {
+    margin: 0;
+}
+
+.prodect span {
+    width: 50px;
+    height: 2em;
+    border-radius: 8px;
+}
+
+@media screen and (min-width:800px) and (max-width:2600px) {
+    .frm-dix,
+    .frm-foto {
+        height: 30em;
+    }
+    .mune {
+        height: 50vh;
+        background-color: crimson;
+        padding-bottom: 33em;
+        display: block;
+    }
+    .group-button {
+        display: none;
+    }
+}
+
+
+/*button group*/
+
+.group-button {
+    position: relative;
+    width: 100%;
+    height: 12em;
+}
+
+.group-button button {
+    border: none;
+    width: 100px;
+    height: 60px;
+    border-radius: 14px;
+    font-size: 15px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.group-button .box-grp {
+    width: 100%;
+    height: 6em;
+    padding: 12px;
+    gap: 5px;
+}
